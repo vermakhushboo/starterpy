@@ -24,7 +24,7 @@ def main(context):
     if context.req.method == "GET":
         # Send a response with the res object helpers
         # `ctx.res.send()` dispatches a string back to the client
-        return context.res.send("Hello, World from K!")
+        return context.res.send("Hello, World from Kh!")
 
     # `ctx.res.json()` is a handy helper for sending JSON
     return context.res.json(
