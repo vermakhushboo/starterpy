@@ -45,4 +45,4 @@ Sample `200` Response:
 
 ## 🔒 Environment Variables
 
-No environment variables required.
+No environment variables required
