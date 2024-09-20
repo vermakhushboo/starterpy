@@ -27,11 +27,6 @@ def main(context):
         return context.res.send("Hello, World from Kh!")
 
     # `ctx.res.json()` is a handy helper for sending JSON
-    return context.res.json(
-        {
-            "motto": "Build like a team of hundreds_",
-            "learn": "https://appwrite.io/docs",
-            "connect": "https://appwrite.io/discord",
-            "getInspired": "https://builtwith.appwrite.io",
-        }
+    return context.res.binary(
+        bytearray([72, 105]))
     )
