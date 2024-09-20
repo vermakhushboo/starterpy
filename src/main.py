@@ -28,5 +28,5 @@ def main(context):
 
     # `ctx.res.json()` is a handy helper for sending JSON
     return context.res.binary(
-        bytearray([72, 105]))
+        bytearray([72, 105])
     )
