@@ -6,4 +6,5 @@ import os
 # It's executed each time we get a request
 def main(context):
     context.log(context.req.body_json)
+    print('hello')
     return context.res.json(context.req.body_json)
